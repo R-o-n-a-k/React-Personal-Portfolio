@@ -3,6 +3,7 @@
 
 /* ------------------------------ Variables CSS ----------------------------- */
 :root {
+  --header-height: 3rem;
   /* ---------------------------------- color --------------------------------- */
   --pure-white: #ffffff;
   --pure-black: #000000;
@@ -25,6 +26,15 @@
   --font-medium: 500;
   --font-semi-bold: 600;
 
+  /* --------------------------------- Margins -------------------------------- */
+  --mb-0-25: 0.25rem;
+  --mb-0-5: 0.5rem;
+  --mb-0-75: 0.75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+  --mb-3: 3rem;
   /* -------------------------------- font-size ------------------------------- */
   /* .5rem=8px 1rem=16px */
   --big-font-size: 3.5rem;
@@ -148,4 +158,26 @@ button {
     --tiny-font-size: 0.635rem;
   }
 
+}
+
+/* ------------------------------- BREAKPOINTS ------------------------------ */
+
+/* For large device */
+@media screen and (max-width:992px) {
+  .container {
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+  }
+
+}
+
+@media screen and (max-width:768px) {}
+
+@media screen and (max-width:576px) {}
+
+@media screen and (max-width:350px) {
+  .container {
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+  }
 }
