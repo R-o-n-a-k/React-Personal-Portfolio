@@ -1,0 +1,176 @@
+.home__content {
+    grid-template-columns: 116px repeat(2, 1fr);
+    padding-top: 5.5rem;
+    column-gap: 1.2rem;
+    align-items: center;
+}
+
+/* -------------------------------- Data css -------------------------------- */
+.home__title {
+    font-size: var(--big-font-size);
+    margin-bottom: var(--mb-0-25);
+    color: var(--font-color-2);
+}
+
+.home__title span {
+    color: var(--accent-primary);
+    text-shadow:
+        1px 0px 1px #ccc, 0px 1px 1px #eee,
+        2px 1px 1px #ccc, 1px 2px 1px #eee,
+        3px 2px 1px #ccc, 2px 3px 1px #eee,
+        4px 3px 1px #ccc, 3px 4px 1px #eee,
+        5px 4px 1px #ccc, 4px 5px 1px #eee,
+        6px 5px 1px #ccc, 5px 6px 1px #eee,
+        7px 6px 1px #ccc;
+    letter-spacing: 5px;
+    /* text-shadow: 3px 4px 7px rgba(25, 72, 105, 0.6); */
+}
+
+.home__subtitle {
+
+    position: relative;
+    font-size: var(--h3-font-size);
+    padding-left: 5.4rem;
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-3);
+}
+
+.home__subtitle::before {
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 2px;
+    background-color: var(--accent-quaternary);
+    left: 0;
+    top: 1rem;
+}
+
+/* ---------------------------- Button animation ---------------------------- */
+.button i {
+    animation: download 1s infinite;
+}
+
+@keyframes download {
+    50% {
+        transform: translateY(.3rem);
+    }
+}
+
+
+/* --------------------------------- Img CSS -------------------------------- */
+
+.home__img {
+    background: url(../../assets/hero.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: inset 0 0 0 9px rgba(50, 113, 171, 0.208);
+    order: 1;
+    justify-self: center;
+    width: 300px;
+    height: 300px;
+    animation: profile__animate 5s ease-in-out infinite 1s;
+}
+
+@keyframes profile__animate {
+    0% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+
+    50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+
+    100% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+}
+
+/* ------------------------------- Social CSS ------------------------------- */
+
+.home__social {
+    display: grid;
+    grid-template-columns: max-content;
+    row-gap: 1rem;
+}
+
+.home__social-icon {
+    font-size: 1.25rem;
+    color: var(--accent-primary);
+}
+
+.home__social-icon:hover {
+    color: var(--accent-secondary);
+}
+
+
+/* ------------------------------- BREAKPOINTS ------------------------------ */
+
+/* For large device */
+@media screen and (max-width:992px) {
+    .home__content {
+        grid-template-columns: 100px repeat(2, 1fr);
+        column-gap: .5rem;
+    }
+
+    .home__subtitle {
+        padding-left: 3.75rem;
+    }
+
+    .home__subtitle::before {
+        width: 42px;
+        top: 0.8rem;
+    }
+
+    .home__img {
+        width: 250px;
+        height: 250px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    :root {
+        --big-font-size: 2.25rem;
+        --h3-font-size: 1rem
+    }
+
+    .section {
+        padding: 2rem 0 4rem;
+    }
+
+    .home__content {
+        grid-template-columns: 0.5fr 2fr;
+        padding-top: 3.5rem;
+    }
+
+    .home__data {
+        grid-column: 1/3;
+    }
+
+    .home__img {
+        order: initial;
+        justify-self: initial;
+        width: 200px;
+        height: 200px;
+    }
+
+    .button {
+        padding: 1rem 1.75rem;
+    }
+
+}
+
+
+@media screen and (max-width:350px) {
+    :root {
+        --big-font-size: 2.25rem;
+    }
+
+    .home__img {
+        width: 180px;
+        height: 180px;
+    }
+
+
+}

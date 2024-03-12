@@ -135,7 +135,7 @@ button {
   background-color: var(--accent-primary);
   color: var(--pure-white);
   padding: 1.25rem 2rem;
-  border-radius: 1rem;
+  border-radius: .5rem;
   font-weight: var(--font-medium);
 }
 

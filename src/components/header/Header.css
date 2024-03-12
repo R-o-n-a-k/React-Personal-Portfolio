@@ -26,19 +26,15 @@
     column-gap: 3rem;
 }
 
-.nav__list a {
+.nav__link {
     color: var(--accent-primary);
     font-weight: var(--font-semi-bold);
     letter-spacing: 2px;
-}
-
-.nav__link {
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: var(--small-font-size);
     transition: .3s;
-
 }
 
 .nav__icon,
@@ -50,10 +46,8 @@
 
 }
 
-/* Active Link */
-
-.nav__icon:hover,
-.nav__link:hover {
+.nav__link:hover,
+.nav__icon:hover {
     color: var(--accent-secondary);
     scale: 1.05;
     /* transform: translateY(-.1rem); */
@@ -64,6 +58,7 @@
 /* ------------------------------- Breakpoints ------------------------------ */
 
 @media screen and (max-width:768px) {
+
     .header {
         top: initial;
         bottom: 0;
@@ -110,13 +105,13 @@
         bottom: .5rem;
         font-size: 1.5rem;
         cursor: pointer;
-
     }
 
     .nav__toggle {
         font-size: 1.1rem;
         cursor: pointer;
     }
+
 
     .nav__icon,
     .nav__close,
@@ -127,6 +122,15 @@
 
 /* Small Devices */
 @media screen and (max-width:350px) {
+
+    .nav__link {
+        font-size: .8rem;
+    }
+
+    .nav__icon {
+        font-size: 1rem;
+    }
+
     .nav__menu {
         padding: 2rem 0.25rem 4rem;
     }

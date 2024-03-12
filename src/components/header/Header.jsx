@@ -16,14 +16,6 @@ function Header() {
     { name: "CONTACT", path: "#contactUs", icon: "envelope" },
   ];
 
-  /* <div className="navbar">
-      <ul>
-        {navItems.map((item) => (
-          <li onClick={item.link}>{item}</li>
-        ))}
-      </ul>
-    </div> */
-
   return (
     <header className="header">
       <nav className="nav container">
