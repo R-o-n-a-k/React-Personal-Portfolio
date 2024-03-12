@@ -34,7 +34,7 @@
     flex-direction: column;
     align-items: center;
     font-size: var(--small-font-size);
-    transition: .3s;
+    transition: var(--animate);
 }
 
 .nav__icon,
@@ -49,7 +49,7 @@
 .nav__link:hover,
 .nav__icon:hover {
     color: var(--accent-secondary);
-    scale: 1.05;
+    scale: 1.1;
     /* transform: translateY(-.1rem); */
 }
 

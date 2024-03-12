@@ -47,7 +47,7 @@
   --tiny-font-size: 0.635rem;
 
   /* -------------------------------- Animation ------------------------------- */
-  --animate: .4s ease-in-out;
+  --animate: .3s ease-in-out;
 }
 
 /* ---------------------------------- Base ---------------------------------- */
@@ -101,21 +101,21 @@ button {
 
 /* ------------------------------ Reusable CSS ------------------------------ */
 .section {
-  padding: 6rem 0 2rem;
+  height: 100vh;
 }
 
 .section_title {
   font-size: var(--h1-font-size);
 }
 
-.section_subtitle {
+.section__subtitle {
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: 4rem;
 }
 
-.section_title,
-.section_subtitle {
+.section__title,
+.section__subtitle {
   text-align: center;
 }
 
