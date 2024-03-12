@@ -101,6 +101,8 @@
 
 .home__social-icon:hover {
     color: var(--accent-secondary);
+    scale: 1.1;
+    transition: var(--animate);
 }
 
 

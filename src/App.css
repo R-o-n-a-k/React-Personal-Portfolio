@@ -45,6 +45,9 @@
   --small-font-size: 0.875rem;
   --smaller-font-size: 0.813rem;
   --tiny-font-size: 0.635rem;
+
+  /* -------------------------------- Animation ------------------------------- */
+  --animate: .4s ease-in-out;
 }
 
 /* ---------------------------------- Base ---------------------------------- */
@@ -141,6 +144,7 @@ button {
 
 .button:hover {
   background-color: var(--accent-secondary);
+  transition: var(--animate);
 }
 
 
