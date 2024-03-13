@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import Skills from "./Skills";
 
 function About() {
   return (
@@ -22,6 +23,12 @@ function About() {
             solving complex problems and making every challenge an opportunity
             to grow and excel.
           </p>
+        </div>
+        <div className="about__skills">
+          <div className="skills__heading">
+            <h3>Technical Skills</h3>
+          </div>
+          <Skills />
         </div>
       </div>
     </section>
