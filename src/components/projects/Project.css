@@ -86,6 +86,7 @@
 @media screen and (max-width:992px) {
     .work__container {
         gap: 1.25rem;
+        grid-template-columns: repeat(2, max-content);
     }
 
     .work__card {
