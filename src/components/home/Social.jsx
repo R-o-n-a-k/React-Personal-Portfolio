@@ -10,7 +10,12 @@ function Social() {
   return (
     <div className="home__social">
       {socialIcons.map((link) => (
-        <a className="home__social-icon" target="_blank" href={link.path}>
+        <a
+          className="home__social-icon"
+          target="_blank"
+          href={link.path}
+          key={link.path}
+        >
           <i className={`uil uil-${link.icon}`}></i>
           {link.name}
         </a>

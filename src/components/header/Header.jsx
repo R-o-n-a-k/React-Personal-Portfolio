@@ -13,7 +13,7 @@ function Header() {
     { name: "ABOUT", path: "#about", icon: "user" },
     { name: "PROJECTS", path: "#projects", icon: "folder-open" },
     { name: "CAREER", path: "#career", icon: "briefcase" },
-    { name: "CONTACT", path: "#contactUs", icon: "envelope" },
+    { name: "CONTACT", path: "#contact", icon: "envelope" },
   ];
 
   return (

@@ -15,7 +15,7 @@ function Data() {
         href={MyResume}
         className="button button--flex"
       >
-        Download CV <i class="fa-solid fa-angles-down"></i>
+        Download CV <i className="fa-solid fa-angles-down"></i>
       </a>
     </div>
   );

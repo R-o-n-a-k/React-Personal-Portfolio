@@ -51,11 +51,10 @@
     color: var(--pure-white);
     margin-bottom: 1rem;
     text-align: center;
-
 }
 
-.skills__heading h3::before,
-.skills__heading h3::after {
+.skills__heading h2::before,
+.skills__heading h2::after {
     background-color: var(--pure-white);
     content: "";
     display: inline-block;
@@ -65,46 +64,15 @@
     width: calc(42% - 0.5rem);
 }
 
-.skills__heading h3::before {
+.skills__heading h2::before {
     right: 0.5rem;
     margin-left: calc(-50% - 0.25rem);
 }
 
-.skills__heading h3::after {
+.skills__heading h2::after {
     left: 0.5rem;
     margin-right: calc(-50% - 0.25rem);
 }
-
-/* ------------------------------- Grid Skills ------------------------------ */
-
-/* .skill__group {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.skill__box {
-    color: var(--pure-white);
-    padding: .5rem;
-    margin: 1rem;
-
-}
-
-.skill__box box-icon {
-    width: 100%;
-    color: var(--pure-white);
-    filter: drop-shadow(3px 4px 2px rgba(0, 0, 0, 0.4));
-
-}
-
-.skill__box box-icon:hover {
-    cursor: pointer;
-    scale: 1.2;
-    transition: var(--animate);
-    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.4));
-} */
 
 /* ------------------------------ Marque Skill ------------------------------ */
 .skill__marquee__section {
@@ -220,17 +188,17 @@
         font-size: var(--small-font-size);
     }
 
-    .skills__heading h3::before,
-    .skills__heading h3::after {
+    .skills__heading h2::before,
+    .skills__heading h2::after {
         width: 27%;
     }
 
-    .skills__heading h3::before {
+    .skills__heading h2::before {
         right: .1rem;
         margin-left: -1%;
     }
 
-    .skills__heading h3::after {
+    .skills__heading h2::after {
         left: .1rem;
         margin-right: -1%;
     }

@@ -26,7 +26,7 @@ function About() {
         </div>
         <div className="about__skills">
           <div className="skills__heading">
-            <h3>Technical Skills</h3>
+            <h2>Technical Skills</h2>
           </div>
           <Skills />
         </div>
