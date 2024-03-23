@@ -27,21 +27,6 @@ function Skills() {
 
   return (
     <>
-      {/* <div className="skill__group">
-            {skillIcons.map((icon) => (
-              <div className="skill__box">
-                <box-icon
-                  className="icon_logo"
-                  type="logo"
-                  name={icon.name}
-                  size="md"
-                  color="white"
-                ></box-icon>
-                <span>{icon.intro}</span>
-              </div>
-            ))}
-          </div> */}
-
       <div className="skill__marquee__section">
         <Marquee
           gradient={false}
