@@ -31,8 +31,39 @@
 }
 
 .second__button {
-    background-color: var(--bg-color-2);
+    position: relative;
+    margin: auto;
+    padding: 12px 18px;
+    transition: var(--animate);
+    border: none;
+    background: none;
+}
+
+.second__button:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 2px;
+    display: block;
+    border-radius: 50px;
+    background: var(--bg-color-1);
+    width: 45px;
+    height: 45px;
+    transition: var(--animate);
+}
+
+.second__button span {
+    position: relative;
     color: var(--font-color-2);
+}
+
+.second__button:hover:before {
+    width: 100%;
+    background: var(--bg-color-1);
+}
+
+.second__button:active {
+    transform: scale(0.95);
 }
 
 .about__intro {
