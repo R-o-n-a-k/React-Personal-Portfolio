@@ -62,6 +62,11 @@
     width: 100%;
 }
 
+/* Change background header on scroll */
+.scroll__header {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+
 /* ------------------------------- Breakpoints ------------------------------ */
 
 @media screen and (max-width:768px) {

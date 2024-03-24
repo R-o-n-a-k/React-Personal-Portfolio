@@ -3,7 +3,12 @@ import "./Header.css";
 import logo from "../../assets/logo.png";
 
 function Header() {
-  //   const navItems = ["Home", "About", "Projects", "Career", "Contact Us"];
+  /* ---------------------------- change background navbar --------------------------- */
+  window.addEventListener("scroll", function () {
+    const header = document.querySelector(".header");
+    if (this.scrollY >= 80) header.classList.add("scroll__header");
+    else header.classList.remove("scroll__header");
+  });
 
   /* --------------------------------- Toggle --------------------------------- */
   const [Toggle, showMenu] = useState(false);
