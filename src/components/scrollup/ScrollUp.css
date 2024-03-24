@@ -9,7 +9,24 @@
     z-index: 10;
     transition: var(--animate);
     box-shadow: 2px 5px 4px rgba(0, 0, 0, .3);
+    animation: bounce 2s ease-in-out infinite;
 }
+
+@keyframes bounce {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
 
 .scrollup:hover {
     background-color: var(--accent-secondary);
