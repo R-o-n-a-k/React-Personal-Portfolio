@@ -12,8 +12,8 @@ function About() {
               <h3 className="about__greeting">- Nice to Meet you !</h3>
               <h2 className="about__name"> Ronak Patel</h2>
             </div>
-            <a href="#contactUs" className="button button--flex second__button">
-              Got a Project ?
+            <a href="#contact" className="second__button">
+              <span>Got a Project ?</span>
             </a>
           </div>
           <p className="about__intro">

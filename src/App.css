@@ -134,18 +134,39 @@ button {
 }
 
 /* --------------------------------- Buttom --------------------------------- */
+
 .button {
   display: inline-block;
-  background-color: var(--accent-primary);
   color: var(--pure-white);
   padding: 1.25rem 2rem;
   border-radius: .5rem;
   font-weight: var(--font-medium);
+  border: 2px solid var(--accent-primary);
+  position: relative;
+  background-color: var(--accent-primary);
+  z-index: 1;
+  overflow: hidden;
 }
 
-.button:hover {
-  background-color: var(--accent-secondary);
+.button:hover>span {
+  color: var(--accent-primary);
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--bg-color-1);
+  transform: translateX(-100%);
   transition: var(--animate);
+  z-index: -1;
+}
+
+.button:hover::before {
+  transform: translateX(0);
 }
 
 /* ------------------------------- Scroll Bar ------------------------------- */
