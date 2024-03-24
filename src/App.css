@@ -139,7 +139,7 @@ button {
   display: inline-block;
   color: var(--pure-white);
   padding: 1.25rem 2rem;
-  border-radius: .5rem;
+  border-radius: 50px;
   font-weight: var(--font-medium);
   border: 2px solid var(--accent-primary);
   position: relative;
