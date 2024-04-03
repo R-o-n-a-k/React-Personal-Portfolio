@@ -1,14 +1,15 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
 import MyResume from "../../assets/Ronak.pdf";
+import TextTransitionLoop from './TextTransitionLoop';
+
 function Data() {
   return (
     <div className="home__data">
       <h1 className="home__title">
         Hi, I'm <span>RONAK</span>
       </h1>
-
-      <h3 className="home__subtitle">Front-End Developer</h3>
-
+      <TextTransitionLoop/>
+     
       <a
         download="Ronak Patel Resume"
         target="_blank"
