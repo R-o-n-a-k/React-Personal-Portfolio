@@ -65,7 +65,7 @@ body.modal-open {
     font-weight: 600;
 }
 
-button {
+#checkOut {
     position: absolute;
     left: 30%;
     bottom: 5rem;
@@ -79,12 +79,12 @@ button {
     padding: 0;
 }
 
-button.check-out {
+#checkOut.check-out {
     width: 10.5rem;
     height: auto;
 }
 
-button.check-out .circle {
+#checkOut.check-out .circle {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     position: relative;
     display: block;
@@ -95,7 +95,7 @@ button.check-out .circle {
     border-radius: 1.625rem;
 }
 
-button.check-out .circle .icon {
+#checkOut.check-out .circle .icon {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     position: absolute;
     top: 0;
@@ -104,7 +104,7 @@ button.check-out .circle .icon {
     background: #fff;
 }
 
-button.check-out .circle .icon.arrow {
+#checkOut.check-out .circle .icon.arrow {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     left: 0.625rem;
     width: 1.125rem;
@@ -112,7 +112,7 @@ button.check-out .circle .icon.arrow {
     background: none;
 }
 
-button.check-out .circle .icon.arrow::before {
+#checkOut.check-out .circle .icon.arrow::before {
     position: absolute;
     content: "";
     top: -0.29rem;
@@ -124,7 +124,7 @@ button.check-out .circle .icon.arrow::before {
     transform: rotate(45deg);
 }
 
-button.check-out .button-text {
+#checkOut.check-out .button-text {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     position: absolute;
     top: 0;
@@ -140,16 +140,16 @@ button.check-out .button-text {
     text-transform: uppercase;
 }
 
-button:hover .circle {
+#checkOut:hover .circle {
     width: 100%;
 }
 
-button:hover .circle .icon.arrow {
+#checkOut:hover .circle .icon.arrow {
     background: #fff;
     transform: translate(1rem, 0);
 }
 
-button:hover .button-text {
+#checkOut:hover .button-text {
     color: #fff;
 }
 
@@ -161,15 +161,23 @@ button:hover .button-text {
         height: 22rem;
     }
 
-    button {
+    #checkOut {
         bottom: 3rem;
+        left: 25%;
     }
 
 }
 
-@media screen and (max-width:350px) {
+@media screen and (max-width:450px) {
     .modal-content {
         width: 21rem;
         height: 23rem;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .modal-content {
+        width: 20rem;
+        height: 24rem;
     }
 }

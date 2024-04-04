@@ -12,7 +12,7 @@ const ProjectModal = ({ item, closeModal }) => {
         <p>{item.desc}</p>
 
         <a href={item.ref} target="_blank" rel="noopener noreferrer">
-          <button className="check-out" role="link">
+          <button id="checkOut" className="check-out" role="link">
             <span className="circle" aria-hidden="true">
               <span className="icon arrow"></span>
             </span>
