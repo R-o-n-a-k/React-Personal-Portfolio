@@ -1,5 +1,5 @@
 .career {
-    background-color: var(--bg-color-2);
+    /* background-color: var(--bg-color-2); */
     height: auto;
 }
 
@@ -40,7 +40,6 @@
     padding: 1rem;
 }
 
-
 /* Style the accordion container */
 .workData__accordion {
     margin-top: 2rem;
@@ -56,6 +55,7 @@
 }
 
 .accordion__header {
+    text-transform: uppercase;
     display: flex;
     letter-spacing: 1px;
     justify-content: space-between;
@@ -95,7 +95,7 @@
     padding: 1rem;
     text-align: justify;
     color: var(--font-color);
-    font-size: var(--small-font-size);
+    font-size: var(--medium-font-size);
 }
 
 .accordion__year {
@@ -138,4 +138,62 @@
 
 .accordion__item.expanded .accordion__content {
     display: block;
+}
+
+/* ------------------------------- BREAKPOINTS ------------------------------ */
+
+/* For large device */
+@media screen and (max-width:992px) {
+    .career__container {
+        max-width: auto;
+        align-content: center;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .accordion__header {
+        font-size: var(--small-font-size);
+    }
+
+    .accordion__year {
+        font-size: var(--small-font-size);
+    }
+
+    .accordion__content {
+        font-size: var(--smaller-font-size);
+    }
+}
+
+@media screen and (max-width:576px) {
+    .accordion__header {
+        font-size: var(--small-font-size);
+        letter-spacing: .2px;
+    }
+
+    .accordion__company::before {
+        margin-right: .4rem;
+    }
+
+    .accordion__year {
+        font-size: var(--tiny-font-size);
+    }
+
+    .accordion__content {
+        font-size: var(--smaller-font-size);
+    }
+}
+
+@media screen and (max-width:350px) {
+    .accordion__header {
+        text-transform: none;
+        font-size: var(--tiny-font-size);
+        letter-spacing: 0px;
+    }
+
+    .accordion__company::before {
+        font-size: var(--tiny-font-size);
+        margin-right: 0rem;
+    }
+
 }

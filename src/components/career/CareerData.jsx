@@ -19,8 +19,8 @@ export const EducationData = [
 export const workData = [
   {
     position: "Senior Software Engineer",
-    company: "CAPGEMINI",
-    year: "Current",
+    company: "Capgemini",
+    year: "Aug 2022 - Current",
     data: [
       "Utilized JavaScript for project development, incorporating HTML and CSS, and applied basic React for enhanced functionality.",
       "Implemented Playwright using TypeScript, developing scripts for test scenarios and introducing innovative workflows to enhance the project framework.",
@@ -30,8 +30,8 @@ export const workData = [
   },
   {
     position: "Software Developer",
-    company: "TECHQ KONNECT",
-    year: "Aug 2021-Sept 2021",
+    company: "Techq Konnect",
+    year: "Aug 2021 - Sept 2021",
     data: [
       " Skilled in developing, optimizing, and maintaining websites using HTML, CSS, and JavaScript to meet client needs and goals.",
       "Proficient in creating responsive and user-friendly web interfaces, adhering to best practices for web design and development.",
@@ -40,8 +40,8 @@ export const workData = [
   },
   {
     position: "Web Developer",
-    company: "SAHU TECHNOLOGIES",
-    year: "Jun 2021-Jul 2021",
+    company: "Sahu Technologies",
+    year: "Jun 2021 - Jul 2021",
     data: [
       " Worked with the fellow interns to meet project requirements, desired functionality by creating front-end website using HTML, CSS & JS.",
       "Implemented enhancements that improved web functionality and responsiveness.",
