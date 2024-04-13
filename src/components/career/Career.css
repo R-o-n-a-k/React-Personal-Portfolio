@@ -39,7 +39,8 @@
     padding: 1rem;
 }
 
-/* Style the accordion container */
+/* ---------------------------------- work ---------------------------------- */
+
 .workData__accordion {
     margin-top: 2rem;
     width: 100%;
@@ -103,12 +104,15 @@
     font-size: var(--small-font-size);
 }
 
-.accordion__content span {
-    font-weight: 600;
+.accordion__postion {
+    font-weight: 550;
     letter-spacing: 1px;
+    text-decoration: underline;
+    text-underline-offset: .2rem;
 }
 
 .accordion__content ul {
+    margin-top: .5rem;
     list-style-type: circle;
     list-style-position: outside;
 }
@@ -139,6 +143,40 @@
 .accordion__item.expanded .accordion__content {
     display: block;
 }
+
+/* -------------------------------- education ------------------------------- */
+
+.timeline-container {
+    margin: 0 auto;
+    max-width: 786px;
+}
+
+.vertical-timeline-element-title {
+    letter-spacing: 1px;
+    font-size: var(--h3-font-size);
+    padding-bottom: .7rem;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: .3rem;
+    text-transform: uppercase;
+}
+
+.vertical-timeline-element-subtitle {
+    font-size: var(--small-font-size);
+    color: var(--font-color);
+    font-weight: 500;
+}
+
+.vertical-timeline-element-year {
+    font-weight: 200;
+    font-size: var(--smaller-font-size);
+}
+
+.vertical-timeline.vertical-timeline-custom-line::before {
+    background: var(--accent-primary);
+    width: .1rem;
+}
+
 
 /* ------------------------------- BREAKPOINTS ------------------------------ */
 

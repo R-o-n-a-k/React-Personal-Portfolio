@@ -9,8 +9,6 @@ const WorkTab = () => {
     setExpandedIndex(index === expandedIndex ? null : index);
   };
 
-  // Close the accordion when clicking anywhere on the screen
-
   return (
     <div className="workData__accordion">
       {workData.map((item, index) => (
