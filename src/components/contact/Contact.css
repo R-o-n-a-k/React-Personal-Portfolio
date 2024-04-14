@@ -106,10 +106,10 @@
 
 .sendI {
     margin-left: .5rem;
-    animation: download 1s infinite;
+    animation: send 1s infinite;
 }
 
-@keyframes download {
+@keyframes send {
     50% {
         transform: translate3d(.3rem, -.2rem, 0);
     }
