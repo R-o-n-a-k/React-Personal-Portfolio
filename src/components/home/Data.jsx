@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 import MyResume from "../../assets/Ronak.pdf";
-import TextTransitionLoop from './TextTransitionLoop';
+import TextTransitionLoop from "./TextTransitionLoop";
 
 function Data() {
   return (
@@ -8,8 +8,8 @@ function Data() {
       <h1 className="home__title">
         Hi, I'm <span>RONAK</span>
       </h1>
-      <TextTransitionLoop/>
-     
+      <TextTransitionLoop />
+
       <a
         download="Ronak Patel Resume"
         target="_blank"
@@ -17,7 +17,7 @@ function Data() {
         className="button button--flex"
       >
         <span>
-          Download CV <i className="fa-solid fa-angles-down"></i>
+          Download CV <i className="fa-solid fa-angles-down downloadI"></i>
         </span>
       </a>
     </div>

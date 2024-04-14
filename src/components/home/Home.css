@@ -50,7 +50,7 @@
 }
 
 /* ---------------------------- Button animation ---------------------------- */
-.button i {
+.downloadI {
     animation: download 1s infinite;
 }
 
