@@ -28,7 +28,7 @@ function Contact() {
 
   const contactInfo = [
     { data: "ronak.p.1206@gmail.com", icon: "envelope" },
-    { data: "+91 9819518418", icon: "phone-alt" },
+    // { data: "+91 ", icon: "phone-alt" },
     { data: "Mumbai, India", icon: "map-marker-alt" },
   ];
 
