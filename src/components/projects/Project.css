@@ -80,6 +80,33 @@
     color: var(--bg-color-1);
 }
 
+
+.show__button {
+    margin-top: 1rem;
+    font-size: var(--smaller-font-size);
+}
+
+.show__button:before {
+    background: var(--accent-quaternary);
+    top:5px;
+    left: 0px;
+    width: 35px;
+    height: 35px;
+}
+.show__button span {
+    color: var(--font-color-2);
+}
+.show__button:hover span{
+    transition: var(--animate);
+    color: var(--bg-color-1);
+}
+
+.show__button:hover:before {
+    width: 100%;
+    background: var(--accent-primary);
+    color: var(--bg-color-1);
+}
+
 /* ------------------------------- BREAKPOINTS ------------------------------ */
 
 /* For large device */
