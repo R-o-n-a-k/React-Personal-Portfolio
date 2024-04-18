@@ -52,6 +52,23 @@
   --animate: .3s ease-in-out;
 }
 
+[data-theme="dark"] {
+
+  --bg-color-2: #ECF7FE;
+  --bg-color-1: #242424;
+  --accent-primary: #2196F3;
+  --accent-secondary: #044389;
+  /* --accent-secondary: #084C61; */
+  --accent-tertiary: #6ABFF1;
+  --accent-quaternary: #42A5F5;
+  --font-color-1: #FAFAFA;
+  --font-color-2: #ECF7FE;
+
+  /* --font-color: #eee; */
+  /* --background-color: #333; */
+  /* --link-color: lightblue; */
+}
+
 /* ---------------------------------- Base ---------------------------------- */
 * {
   margin: 0;

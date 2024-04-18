@@ -1,0 +1,103 @@
+.toggleTheme {
+    position: fixed;
+    top: -1%;
+    right: 1%;
+}
+
+.toggleSwitch[type=checkbox] {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+
+.toggleLabel {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 40px;
+    height: 25px;
+    background: rgb(206, 232, 248);
+    display: block;
+    border-radius: 100px;
+    position: relative;
+}
+
+.toggleLabel:after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    border-radius: 90px;
+    transition: 0.3s;
+}
+
+.toggleSwitch:checked+.toggleLabel {
+    background: var(--accent-secondary);
+}
+
+.toggleSwitch:checked+.toggleLabel:after {
+    left: calc(100% - 5px);
+    transform: translateX(-100%);
+}
+
+.toggleLabel:active:after {
+    width: 20px;
+}
+
+
+/* For large device */
+@media screen and (max-width:1084px) {
+    .toggleTheme {
+        top: -1%;
+        right: 60%;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .toggleTheme {
+        right: 65%;
+    }
+}
+
+@media screen and (max-width:880px) {
+    .toggleTheme {
+        right: 73%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .toggleTheme {
+        position: fixed;
+        top: -1.5%;
+        right: 11%;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .toggleTheme {
+        top: -1.5%;
+        right: 13%;
+    }
+
+    .toggleLabel {
+        width: 35px;
+        height: 20px;
+    }
+
+    .toggleLabel:after {
+        top: 3px;
+        left: 5px;
+        width: 13px;
+        height: 13px;
+    }
+
+}
+
+@media screen and (max-width:350px) {
+    .toggleTheme {
+        top: -1.5%;
+        right: 13%;
+    }
+}

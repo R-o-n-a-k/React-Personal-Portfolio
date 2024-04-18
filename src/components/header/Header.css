@@ -98,6 +98,7 @@
     /* Show Menu */
     .show__menu {
         top: 0;
+        z-index: 110;
     }
 
     .nav__list {
