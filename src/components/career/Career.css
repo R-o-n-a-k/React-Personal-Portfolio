@@ -22,7 +22,7 @@
 .tab__button {
     background: none;
     cursor: pointer;
-    color: var(--font-color);
+    color: var(--font-color-1);
     padding: 0.45rem 0.95rem;
     font-weight: var(--font-medium);
     border-radius: 0.5rem;
@@ -30,7 +30,7 @@
 }
 
 .tab__button.active {
-    background-color: var(--accent-quaternary);
+    background-color: var(--accent-primary);
     color: var(--bg-color-1);
 }
 
@@ -47,7 +47,7 @@
 }
 
 .accordion__item {
-    border: .5px solid var(--accent-quaternary);
+    border: .5px solid var(--accent-primary);
     border-radius: 0.5rem;
     margin-bottom: 1rem;
     cursor: pointer;
@@ -61,7 +61,7 @@
     justify-content: space-between;
     padding: 1rem;
     font-weight: 550;
-    color: var(--font-color);
+    color: var(--font-color-1);
     position: relative;
     z-index: 1;
     overflow: hidden;
@@ -69,7 +69,7 @@
 
 .accordion__header:hover {
     color: var(--bg-color-1);
-    background-color: var(--accent-quaternary);
+    background-color: var(--accent-primary);
     transition: var(--animate);
 }
 
@@ -81,7 +81,7 @@
     bottom: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--accent-quaternary);
+    background-color: var(--accent-primary);
     transform: translateX(-100%);
     transition: var(--animate);
     z-index: -1;
@@ -95,7 +95,7 @@
 .accordion__content {
     padding: 1rem;
     text-align: justify;
-    color: var(--font-color);
+    color: var(--font-color-1);
     font-size: var(--medium-font-size);
 }
 
@@ -112,6 +112,7 @@
 }
 
 .accordion__content ul {
+    color: var(--accordion-content);
     margin-top: .5rem;
     list-style-type: circle;
     list-style-position: outside;
@@ -135,8 +136,8 @@
 }
 
 .accordion__item.expanded .accordion__header {
-    border: 1px solid var(--accent-quaternary);
-    background-color: var(--accent-quaternary);
+    border: 1px solid var(--accent-primary);
+    background-color: var(--accent-primary);
     color: var(--bg-color-1);
 }
 
@@ -163,11 +164,12 @@
 
 .vertical-timeline-element-subtitle {
     font-size: var(--small-font-size);
-    color: var(--font-color);
+    color: var(--font-color-1);
     font-weight: 500;
 }
 
 .vertical-timeline-element-year {
+    color: var(--font-color-title);
     font-weight: 200;
     font-size: var(--smaller-font-size);
 }
