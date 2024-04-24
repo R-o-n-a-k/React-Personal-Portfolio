@@ -5,6 +5,14 @@
     margin: 1rem 2rem 2rem;
 }
 
+.section__title {
+    color: var(--font-color-title);
+}
+
+.section__subtitle {
+    color: var(--font-color-subtitle);
+}
+
 .work__filters {
     display: flex;
     justify-content: center;
@@ -15,7 +23,7 @@
 
 .work__item {
     cursor: pointer;
-    color: var(--font-color);
+    color: var(--font-color-1);
     padding: 0.25rem 0.75rem;
     font-weight: var(--font-medium);
     border-radius: 0.5rem;
@@ -23,7 +31,7 @@
 }
 
 .work__item:hover {
-    background-color: var(--accent-quaternary);
+    background-color: var(--accent-primary);
     color: var(--bg-color-1);
     transition: var(--animate);
 }
@@ -36,7 +44,7 @@
 
 .work__card {
     background-color: var(--bg-color-1);
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: var(--project-border);
     padding: 1.25rem;
 }
 
@@ -48,6 +56,7 @@
 }
 
 .work__title {
+    color: var(--font-color-1);
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-0-5);
@@ -55,7 +64,7 @@
 }
 
 .work__button {
-    color: var(--accent-quaternary);
+    color: var(--accent-primary);
     font-size: var(--small-font-size);
     display: flex;
     align-items: center;
@@ -70,13 +79,42 @@
 
 .work__button:hover .work__button-icon {
     transform: translateX(0.25rem);
-    color: var(--accent-secondary);
+    color: var(--accent-tertiary);
 }
 
 /* active work */
 
 .active-work {
-    background-color: var(--accent-quaternary);
+    background-color: var(--accent-primary);
+    color: var(--bg-color-1);
+}
+
+
+.show__button {
+    margin-top: 1rem;
+    font-size: var(--smaller-font-size);
+}
+
+.show__button:before {
+    background: var(--accent-primary);
+    top: 5px;
+    left: 0px;
+    width: 35px;
+    height: 35px;
+}
+
+.show__button span {
+    color: var(--font-color-1);
+}
+
+.show__button:hover span {
+    transition: var(--animate);
+    color: var(--bg-color-1);
+}
+
+.show__button:hover:before {
+    width: 100%;
+    background: var(--accent-primary);
     color: var(--bg-color-1);
 }
 

@@ -52,7 +52,7 @@
     width: 0%;
     height: 2px;
     margin-top: 2px;
-    background: var(--accent-quaternary);
+    background: var(--accent-primary);
     display: block;
     transition: var(--animate);
     margin-right: auto;
@@ -98,6 +98,7 @@
     /* Show Menu */
     .show__menu {
         top: 0;
+        z-index: 110;
     }
 
     .nav__list {
