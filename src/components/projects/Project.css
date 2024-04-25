@@ -157,6 +157,9 @@
         width: 100%;
     }
 
+    .show__button {
+        left: 38%;
+    }
 }
 
 @media screen and (max-width:350px) {

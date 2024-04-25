@@ -19,6 +19,9 @@
 
   --font-color-title: #404040;
   --font-color-subtitle: #657785;
+
+  /* header */
+  --nav-scroll-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
   --hero-shadow: 1px 0px 1px #ccc,
     0px 1px 1px #eee,
     2px 1px 1px #ccc,
@@ -43,6 +46,12 @@
 
   /* career */
   --accordion-content: var(--font-color-2);
+
+  /* contact */
+  --contact-color-1: var(--white-color);
+  --contact-color-2: var(--accent-secondary);
+  --contact-color-4: var(--bg-color-2);
+
   /* ------------------------------- Font-Family ------------------------------ */
   --body-font: "Poppins", sans-serif;
 
@@ -89,6 +98,9 @@
   --font-color-title: #E2E8ED;
   --font-color-subtitle: #AAB9C4;
 
+  /* header */
+  --nav-scroll-shadow: 1px 1px 4px rgba(0, 0, 0, 1);
+
   /* home */
   --shadow-line-1: #2e3f4e;
   --shadow-line-2: #4e5c6c;
@@ -114,7 +126,7 @@
   --project-border: 1px solid rgb(41, 68, 90);
 
   /* career */
-  --accordion-content: var(--font-color-subtitle)
+  --accordion-content: var(--font-color-subtitle);
 }
 
 /* ---------------------------------- Base ---------------------------------- */
@@ -243,7 +255,7 @@ button {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--accent-quaternary);
+  background-color: var(--accent-primary);
   border-radius: .1rem;
 }
 
