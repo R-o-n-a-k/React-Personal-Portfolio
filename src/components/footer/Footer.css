@@ -1,0 +1,6 @@
+.footer {
+    color: var(--font-color-subtitle);
+    text-align: center;
+    padding: 1rem;
+    font-size: var(--smaller-font-size);
+}

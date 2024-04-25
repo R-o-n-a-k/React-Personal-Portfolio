@@ -255,7 +255,7 @@ button {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--accent-quaternary);
+  background-color: var(--accent-primary);
   border-radius: .1rem;
 }
 
