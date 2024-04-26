@@ -13,7 +13,7 @@ const TextTransitionLoop = () => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setIndex((prevIndex) => (prevIndex + 1) % Roles.length);
-    }, 3000); // Change text every 3 seconds
+    }, 1400); // Change text every 1.4 seconds
 
     return () => clearInterval(intervalId);
   }, []);
