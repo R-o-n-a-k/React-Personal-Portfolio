@@ -16,7 +16,7 @@ const ProjectItems = ({ item }) => {
   };
 
   return (
-    <div className="work__card" key={item.id}>
+    <div className="work__card" key={item.id} data-aos="fade-up">
       <img src={item.image} alt="" className="work__img" />
       <h3 className="work__title">{item.title}</h3>
       <a className="work__button" target="_blank" onClick={openModal}>

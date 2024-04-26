@@ -35,7 +35,7 @@ const toggleTheme = (e) => {
 const DarkMode = () => {
   return (
     <>
-      <div className="toggleTheme">
+      <div className="toggleTheme" data-aos="fade-down">
         <input
           className="toggleSwitch"
           type="checkbox"

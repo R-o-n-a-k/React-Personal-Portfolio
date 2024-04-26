@@ -34,7 +34,7 @@ function Contact() {
 
   return (
     <section className="section contact" id="contact">
-      <div className="contact__heading">
+      <div className="contact__heading" data-aos="fade-up">
         <h2 className="section__title ">Contact Me</h2>
         <span className="section__subtitle">Let's get in touch.</span>
       </div>
@@ -42,14 +42,24 @@ function Contact() {
         <div className="contact__content">
           <div className="contact__info">
             {contactInfo.map((info) => (
-              <div class="contact__icon-detail">
-                <span class={`fas fa-${info.icon}`}></span>
+              <div
+                className="contact__icon-detail"
+                data-aos="fade-right"
+                key={info.data}
+              >
+                <span className={`fas fa-${info.icon}`}></span>
                 <p>{info.data}</p>
               </div>
             ))}
           </div>
 
-          <form className="contact__form" ref={form} onSubmit={sendEmail}>
+          <form
+            className="contact__form"
+            ref={form}
+            onSubmit={sendEmail}
+            data-aos="fade-up"
+            data-aos-offset="110"
+          >
             <div className="contact__form-div">
               <label htmlFor="" className="contact__form-tag">
                 Name
@@ -89,7 +99,7 @@ function Contact() {
             </div>
             <div className="contact__form-div">
               <button className="button contact__form-button" type="submit">
-                Send <i class="fa-regular fa-paper-plane sendI"></i>
+                Send <i className="fa-regular fa-paper-plane sendI"></i>
               </button>
             </div>
             <ToastContainer
@@ -115,6 +125,7 @@ function Contact() {
                 target="_blank"
                 href={link.path}
                 key={link.path}
+                data-aos="fade-left"
               >
                 <i className={`uil uil-${link.icon}`}></i>
                 {link.name}

@@ -12,13 +12,14 @@ function Career() {
 
   return (
     <section className="career section" id="career">
-      <h2 className="section__title">Career</h2>
-      <span className="section__subtitle">
-        Educational Qualification & Work Experience
-      </span>
-
+      <div data-aos="fade-up">
+        <h2 className="section__title">Career</h2>
+        <span className="section__subtitle">
+          Educational Qualification & Work Experience
+        </span>
+      </div>
       <div className="career__container container">
-        <div className="tabs__container">
+        <div className="tabs__container" data-aos="fade-up">
           <button
             className={`tab__button ${activeTab === "Work" ? "active" : ""}`}
             onClick={() => handleTabClick("Work")}

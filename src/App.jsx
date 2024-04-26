@@ -8,8 +8,8 @@ import Contact from "./components/contact/Contact";
 import ScrollUp from "./components/scrollup/ScrollUp";
 import Footer from "./components/footer/Footer";
 import React, { useState, useEffect } from "react";
-// import HashLoader from "react-spinners/HashLoader";
 import Loader from "./components/header/Loader";
+import AnimateOnScroll from "./components/AnimateOnScroll";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -18,7 +18,7 @@ function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 3000);
+    }, 1000);
   }, []);
 
   return (
@@ -37,6 +37,7 @@ function App() {
           </main>
           <Footer />
           <ScrollUp />
+          <AnimateOnScroll />
         </div>
       )}
     </>

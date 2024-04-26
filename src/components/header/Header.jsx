@@ -26,11 +26,16 @@ function Header() {
     <>
       <header className="header">
         <nav className="nav container">
-          <img src={logo} alt="" href="index.html" className="nav__logo" />
+          <img
+            src={logo}
+            href="index.html"
+            className="nav__logo"
+            data-aos="flip-left"
+          />
           <div className={Toggle ? "nav__menu show__menu" : "nav__menu"}>
             <ul className="nav__list grid">
               {menuItems.map((item) => (
-                <li className="nav__item " key={item.name}>
+                <li className="nav__item " key={item.name} data-aos="fade-down">
                   <a className="nav__link " href={item.path}>
                     <i className={`fa-solid fa-${item.icon} nav__icon`}></i>
                     {item.name}
@@ -55,6 +60,7 @@ function Header() {
             id="nav-toggle"
             aria-label="nav-toggler"
             onClick={() => showMenu(!Toggle)}
+            data-aos="fade-down"
           >
             <i className="fas fa-bars"></i>
           </button>

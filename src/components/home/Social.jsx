@@ -8,7 +8,7 @@ function Social() {
   ];
 
   return (
-    <div className="home__social">
+    <div className="home__social" data-aos="fade-right">
       {socialIcons.map((link) => (
         <a
           className="home__social-icon"

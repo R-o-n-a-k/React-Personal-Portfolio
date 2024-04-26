@@ -4,3 +4,9 @@
     padding: 1rem;
     font-size: var(--smaller-font-size);
 }
+
+@media screen and (max-width:380px) {
+    .footer {
+        font-size: var(--tiny-font-size);
+    }
+}
