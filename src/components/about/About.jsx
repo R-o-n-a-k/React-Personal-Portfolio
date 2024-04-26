@@ -6,7 +6,7 @@ function About() {
   return (
     <section className="about section" id="about">
       <div className="about__section">
-        <div className="about__content">
+        <div className="about__content" data-aos="fade-up">
           <div className="about__greet">
             <div className="about__intro__group">
               <h3 className="about__greeting">- Nice to Meet you !</h3>
@@ -24,7 +24,7 @@ function About() {
             to grow and excel.
           </p>
         </div>
-        <div className="about__skills">
+        <div className="about__skills" data-aos="fade-up" data-aos-offset="50">
           <div className="skills__heading">
             <h2>Technical Skills</h2>
           </div>

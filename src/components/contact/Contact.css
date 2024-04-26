@@ -217,7 +217,7 @@
 
 }
 
-@media screen and (max-width:380px) {
+@media screen and (max-width:350px) {
 
     .contact__icon-detail span {
         font-size: .9rem;

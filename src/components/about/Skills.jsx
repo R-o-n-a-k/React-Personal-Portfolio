@@ -39,7 +39,7 @@ function Skills() {
         >
           <div className="skill__marque">
             {skillIcons.map((icon) => (
-              <div className="skill__marquee_box">
+              <div className="skill__marquee_box" key={icon.name}>
                 <box-icon
                   className="icon__logo"
                   type="logo"
@@ -51,7 +51,7 @@ function Skills() {
               </div>
             ))}
             {skillImg.map((img) => (
-              <div className="skill__marquee_box">
+              <div className="skill__marquee_box" key={img.desc}>
                 <img className="skill__icon__img" src={img.image} alt="" />
                 <span>{img.desc}</span>
               </div>

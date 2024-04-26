@@ -291,7 +291,25 @@ button {
 
 @media screen and (max-width:576px) {}
 
+@media screen and (max-width:380px) {
+  .section__title {
+    font-size: 1.85rem;
+  }
+
+  .section__subtitle {
+    font-size: var(--small-font-size);
+  }
+}
+
 @media screen and (max-width:350px) {
+  .section__title {
+    font-size: var(--h2-font-size);
+  }
+
+  .section__subtitle {
+    font-size: var(--small-font-size);
+  }
+
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);

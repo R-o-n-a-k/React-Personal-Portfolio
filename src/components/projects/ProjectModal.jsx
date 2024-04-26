@@ -3,7 +3,7 @@ import "./ProjectModal.css";
 
 const ProjectModal = ({ item, closeModal }) => {
   return (
-    <div className="modal">
+    <div className="modal" data-aos="fade" data-aos-duration="400">
       <div className="modal-content">
         <a className="modal-close" onClick={closeModal}>
           <i className="fa-solid fa-times"></i>
