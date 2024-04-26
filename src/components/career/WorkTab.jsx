@@ -25,7 +25,11 @@ const WorkTab = () => {
           </div>
 
           {index === expandedIndex && (
-            <div className="accordion__content">
+            <div
+              className="accordion__content"
+              data-aos="fade-down"
+              data-aos-duration="450"
+            >
               <span className="accordion__postion">{item.position}</span>
               <ul className="accordian__data__group">
                 {item.data.map((dataItem, dataIndex) => (
