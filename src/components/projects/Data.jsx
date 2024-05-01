@@ -1,8 +1,9 @@
 import Work1 from "../../assets/project-section/fnd.gif";
-import Work2 from "../../assets/project-section/portfolioLatest.gif";
+import Work2 from "../../assets/project-section/reactPortfolio.gif";
 import Work3 from "../../assets/project-section/covid.gif";
 import Work4 from "../../assets/project-section/orion.gif";
 import Work5 from "../../assets/project-section/virtualAssistant.png";
+import Work6 from "../../assets/project-section/portfolioLatest.gif";
 
 export const projectsData = [
   {
@@ -23,15 +24,22 @@ export const projectsData = [
   {
     id: 2,
     image: Work2,
-    title: "Personal Portfolio",
+    title: "React Portfolio",
     category: "web",
-    ref: "https://github.com/R-o-n-a-k/Portfolio",
+    ref: "https://github.com/R-o-n-a-k/React-Personal-Portfolio",
     desc: [
-      "My Personal Portfolio Website made using only",
-      <span className="highlight"> HTML, CSS</span>,
-      " and ",
-      <span className="highlight">JS</span>,
-      " with a clean and minimal UI.",
+      "Crafted a responsive portfolio website using ",
+      <span className="highlight">React-Js</span>,
+      " leveraging ",
+      <span className="highlight">npm libraries</span>,
+      " and hooks such as ",
+      <span className="highlight">useState & useEffect</span>,
+      " . ",
+      <br />,
+      <br />,
+      "Integrated ",
+      <span className="highlight">EmailJS </span>,
+      " for seamless contact form handling, all wrapped in a clean & minimal UI.",
     ],
   },
   {
@@ -70,6 +78,20 @@ export const projectsData = [
       <span className="highlight">Python</span>,
       " based virtual assistant to execute basic commands and manage email communication using the ",
       <span className="highlight">Speech Recognition module.</span>,
+    ],
+  },
+  {
+    id: 6,
+    image: Work6,
+    title: "Personal Portfolio",
+    category: "web",
+    ref: "https://github.com/R-o-n-a-k/Portfolio",
+    desc: [
+      "My Personal Portfolio Website made using only",
+      <span className="highlight"> HTML, CSS</span>,
+      " and ",
+      <span className="highlight">JS</span>,
+      " with a clean and minimal UI.",
     ],
   },
 ];
