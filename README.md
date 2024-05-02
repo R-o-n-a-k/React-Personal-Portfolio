@@ -57,23 +57,19 @@
 To Fork the repo click on the fork button at the top right of the page. Once the repo is forked open your terminal and perform the following commands
 
 ```
-git clone [repository_url]
+git clone https://github.com/R-o-n-a-k/React-Personal-Portfolio.git
 
 cd React-Personal-Portfolio
 ```
 
 ### Install Dependencies
 
-```bash
+```
 npm install
-    or 
-yarn install
 ```
 
 ### Run the development server:
 
-```bash
+```
 npm run dev
-    or
-yarn dev
 ```
