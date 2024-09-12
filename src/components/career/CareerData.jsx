@@ -60,7 +60,7 @@ export const workData = [
   },
   {
     position: "Software Developer",
-    company: "Techq Konnect",
+    company: "Techq Konnect (Internship)",
     year: "Aug 2021 - Sept 2021",
     data: [
       [
@@ -85,7 +85,7 @@ export const workData = [
   },
   {
     position: "Web Developer",
-    company: "Sahu Technologies",
+    company: "Sahu Technologies (Internship)",
     year: "Jun 2021 - Jul 2021",
     data: [
       [
