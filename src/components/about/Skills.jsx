@@ -13,7 +13,7 @@ function Skills() {
     { name: "python", intro: "Python" },
     { name: "java", intro: "Java" },
     { name: "c-plus-plus", intro: "C++" },
-    { name: "git", intro: "git" },
+    { name: "git", intro: "Git" },
     { name: "figma", intro: "Figma" },
     { name: "sass", intro: "Sass" },
     { name: "bootstrap", intro: "BootStrap" },
