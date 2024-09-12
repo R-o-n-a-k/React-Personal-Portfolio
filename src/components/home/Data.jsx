@@ -1,5 +1,5 @@
 import React from "react";
-import MyResume from "../../assets/Ronak.pdf";
+import MyResume from "../../assets/Ronak Patel.pdf";
 import TextTransitionLoop from "./TextTransitionLoop";
 
 function Data() {
