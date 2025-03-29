@@ -4,8 +4,32 @@ import Work3 from "../../assets/project-section/covid.gif";
 import Work4 from "../../assets/project-section/orion.gif";
 import Work5 from "../../assets/project-section/virtualAssistant.png";
 import Work6 from "../../assets/project-section/portfolioLatest.gif";
+import Work7 from "../../assets/project-section/somebodyfixit.gif";
 
 export const projectsData = [
+  {
+    id: 7,
+    image: Work7,
+    title: "SomebodyFixit",
+    category: "web",
+    ref: "https://somebodyfixit.netlify.app/",
+    desc: [
+      "Developed a ",
+      <span className="highlight">React-JS</span>,
+      " based platform for sharing daily challenges & collaborating on solutions.",
+      <br />,
+      <br />,
+      "Implemented ",
+      <span className="highlight">authentication</span>,
+      ", ",
+      <span className="highlight">posting</span>,
+      " with ",
+      <span className="highlight">Supabase</span>,
+      " integration. Hosted on ",
+      <span className="highlight">Netlify</span>,
+      ".",
+    ],
+  },
   {
     id: 1,
     image: Work1,

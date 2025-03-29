@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Header.css";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo1.png";
 import DarkMode from "./DarkMode";
 
 function Header() {
