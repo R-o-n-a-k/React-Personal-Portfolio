@@ -1,5 +1,5 @@
 import React from "react";
-import MyResume from "../../assets/Ronak_Patel_SeniorSoftwareEngineer_Resume.pdf";
+import MyResume from "../../assets/Ronak_Patel_SeniorSoftwareEngineer.pdf";
 import TextTransitionLoop from "./TextTransitionLoop";
 
 function Data() {
