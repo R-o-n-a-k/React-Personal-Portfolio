@@ -46,6 +46,7 @@
     background-color: var(--bg-color-1);
     border: var(--project-border);
     padding: 1.25rem;
+    border-radius: 1rem;
 }
 
 .work__img {
