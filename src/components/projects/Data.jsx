@@ -35,7 +35,7 @@ export const projectsData = [
     image: Work1,
     title: "Fake News Detection",
     category: "ml",
-    ref: "https://github.com/R-o-n-a-k/FakeNewsDetection",
+    ref: "https://fakenewsdetection-t083.onrender.com/",
     desc: [
       "An ML model that predicts that if the news is real or fake using ",
       <span className="highlight">
