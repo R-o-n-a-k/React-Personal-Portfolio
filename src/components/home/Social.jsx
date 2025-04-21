@@ -2,9 +2,9 @@ import React from "react";
 
 function Social() {
   const socialIcons = [
-    { path: "https://www.instagram.com/rroonnaakk_/", icon: "instagram" },
+    { path: "https://www.instagram.com/thecopyartist_/", icon: "instagram" },
     { path: "https://www.linkedin.com/in/ronak-j-patel/", icon: "linkedin" },
-    { path: "https://github.com/R-o-n-a-k", icon: "github-alt" },
+    { path: "https://github.com/R-o-n-a-k", icon: "github" },
   ];
 
   return (
@@ -16,7 +16,7 @@ function Social() {
           href={link.path}
           key={link.path}
         >
-          <i className={`uil uil-${link.icon}`}></i>
+          <i className={`fa-brands fa-${link.icon}`} />
           {link.name}
         </a>
       ))}

@@ -67,6 +67,14 @@
     box-shadow: var(--nav-scroll-shadow);
 }
 
+/* Add extra margin on clicking nav list */
+#about,
+#projects,
+#career,
+#contact {
+    scroll-margin-top: 4rem;
+}
+
 /* ------------------------------- Breakpoints ------------------------------ */
 
 @media screen and (max-width:768px) {
@@ -133,6 +141,20 @@
     }
 }
 
+@media screen and (max-width:380px) {
+
+    #about,
+    #contact {
+        scroll-margin-top: 10rem;
+    }
+
+    #projects,
+    #career {
+        scroll-margin-top: 12rem;
+    }
+
+}
+
 /* Small Devices */
 @media screen and (max-width:350px) {
 
@@ -151,4 +173,5 @@
     .nav__list {
         column-gap: 0;
     }
+
 }

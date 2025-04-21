@@ -5,14 +5,13 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 function Contact() {
+  const formPublicKey = import.meta.env.VITE_EMAIL_JS_KEY;
   const form = useRef();
-
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs
       .sendForm("service_r0tesfr", "template_dd6imcg", form.current, {
-        publicKey: "F15DiwIfiUoFD375Q",
+        publicKey: formPublicKey,
       })
       .then(() => {
         toast.success("The form was submitted successfully");
@@ -21,14 +20,13 @@ function Contact() {
   };
 
   const contactSocialIcons = [
-    { path: "https://www.instagram.com/rroonnaakk_/", icon: "instagram" },
+    { path: "https://www.instagram.com/thecopyartist_/", icon: "instagram" },
     { path: "https://www.linkedin.com/in/ronak-j-patel/", icon: "linkedin" },
-    { path: "https://github.com/R-o-n-a-k", icon: "github-alt" },
+    { path: "https://github.com/R-o-n-a-k", icon: "github" },
   ];
 
   const contactInfo = [
     { data: "ronak.p.1206@gmail.com", icon: "envelope" },
-    // { data: "+91 ", icon: "phone-alt" },
     { data: "Mumbai, India", icon: "map-marker-alt" },
   ];
 
@@ -125,9 +123,9 @@ function Contact() {
                 target="_blank"
                 href={link.path}
                 key={link.path}
-                data-aos="fade-left"
+                data-aos="fade-right"
               >
-                <i className={`uil uil-${link.icon}`}></i>
+                <i className={`fa-brands fa-${link.icon}`} />
                 {link.name}
               </a>
             ))}

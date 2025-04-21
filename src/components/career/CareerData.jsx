@@ -100,7 +100,7 @@ export const workData = [
     ],
   },
   {
-    position: "Software Developer (Internship)",
+    position: "Front End Developer (Internship)",
     company: "Techq Konnect",
     year: "Aug 2021 - Sept 2021",
     data: [

@@ -6,7 +6,7 @@ function Loader(loading) {
     display: "block",
     margin: "0 auto",
     with: "100%",
-    height: "100vh",
+    height: "100dvh",
   };
   return (
     <HashLoader

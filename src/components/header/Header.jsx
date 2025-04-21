@@ -28,9 +28,9 @@ function Header() {
         <nav className="nav container">
           <img
             src={logo}
-            href="index.html"
             className="nav__logo"
             data-aos="flip-left"
+            onClick={() => (window.location.href = "/")}
           />
           <div className={Toggle ? "nav__menu show__menu" : "nav__menu"}>
             <ul className="nav__list grid">
