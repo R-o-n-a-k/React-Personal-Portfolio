@@ -43,7 +43,7 @@ const DarkMode = () => {
           onChange={toggleTheme}
           defaultChecked={defaultDark}
         />
-        <label className="toggleLabel" for="switch">
+        <label className="toggleLabel" htmlFor="switch">
           Toggle
         </label>
       </div>

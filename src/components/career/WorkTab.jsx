@@ -31,13 +31,15 @@ const WorkTab = () => {
               data-aos-duration="450"
             >
               <span className="accordion__postion">{item.position}</span>
-              <ul className="accordian__data__group">
-                {item.data.map((dataItem, dataIndex) => (
-                  <li className="accordian__content__list" key={dataIndex}>
-                    {dataItem}
-                  </li>
-                ))}
-              </ul>
+              <div className="accordion__scroll">
+                <ul className="accordian__data__group">
+                  {item.data.map((dataItem, dataIndex) => (
+                    <li className="accordian__content__list" key={dataIndex}>
+                      {dataItem}
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
           )}
         </div>

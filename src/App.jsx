@@ -18,7 +18,7 @@ function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 3000);
+    }, 1000);
   }, []);
 
   return (
@@ -26,7 +26,7 @@ function App() {
       {loading ? (
         <Loader loading={loading} />
       ) : (
-        <div>
+        <>
           <Header />
           <main className="main">
             <Home />
@@ -38,7 +38,7 @@ function App() {
           <Footer />
           <ScrollUp />
           <AnimateOnScroll />
-        </div>
+        </>
       )}
     </>
   );

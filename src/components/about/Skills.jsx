@@ -10,13 +10,16 @@ function Skills() {
     { name: "css3", intro: "CSS3" },
     { name: "javascript", intro: "JavaScript" },
     { name: "react", intro: "React" },
+    { name: "nodejs", intro: "Node.Js" },
     { name: "python", intro: "Python" },
     { name: "java", intro: "Java" },
+    { name: "flask", intro: "Flask" },
     { name: "c-plus-plus", intro: "C++" },
+    { name: "sass", intro: "Sass" },
     { name: "git", intro: "Git" },
     { name: "figma", intro: "Figma" },
-    { name: "sass", intro: "Sass" },
     { name: "bootstrap", intro: "BootStrap" },
+    { name: "postgresql", intro: "PostgreSQL" },
   ];
 
   const skillImg = [
@@ -30,7 +33,7 @@ function Skills() {
       <div className="skill__marquee__section">
         <Marquee
           gradient={false}
-          speed={90}
+          speed={120}
           pauseOnHover={true}
           pauseOnClick={true}
           delay={0}
@@ -46,7 +49,7 @@ function Skills() {
                   name={icon.name}
                   size="md"
                   color="white"
-                ></box-icon>
+                />
                 <span>{icon.intro}</span>
               </div>
             ))}
