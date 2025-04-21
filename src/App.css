@@ -250,7 +250,7 @@ button {
 
 ::-webkit-scrollbar {
   width: .5rem;
-  background-color: var(--bg-color-1);
+  background-color: transparent;
   border-radius: .3rem;
 }
 
@@ -258,7 +258,6 @@ button {
   background-color: var(--accent-primary);
   border-radius: .1rem;
 }
-
 
 /* --------------------------- Responsive Section --------------------------- */
 /* Responsive Fonts */
