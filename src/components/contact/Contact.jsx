@@ -9,14 +9,17 @@ function Contact() {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
-    emailjs
-      .sendForm("service_r0tesfr", "template_dd6imcg", form.current, {
-        publicKey: formPublicKey,
-      })
-      .then(() => {
-        toast.success("The form was submitted successfully");
-      });
-    e.target.reset();
+    const confirmSend = window.confirm("Are you sure you want to send?");
+    if (confirmSend) {
+      emailjs
+        .sendForm("service_r0tesfr", "template_dd6imcg", form.current, {
+          publicKey: formPublicKey,
+        })
+        .then(() => {
+          toast.success("The form was submitted successfully");
+        });
+      e.target.reset();
+    }
   };
 
   const contactSocialIcons = [
