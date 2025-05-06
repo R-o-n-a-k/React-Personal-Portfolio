@@ -1,76 +1,85 @@
 
-# Personal Portfolio with React
+# Ronak Patel | Front-End Developer Portfolio
+<img src="https://github.com/R-o-n-a-k/R-o-n-a-k/blob/f58016a29f39aff73e71a33c01ceff6de0a05a5a/assets/ReactPortfolio.png?raw=true" width="100%" />
 
-- A responsive portfolio website using React-Js leveraging npm libraries and hooks such as useState & useEffect.
-- Integrated for seamless contact form handling, all wrapped in a clean & minimal UI.
+## 🚀 Project Overview
 
-
-
-## Demo
-
-<img src="https://github.com/R-o-n-a-k/R-o-n-a-k/blob/1bdfb70bd1f8a97bb91f799ee1d0c09920c1dd7e/assets/ReactPersonalPortfolio.png?raw=true" width="100%" />
+I'm Ronak Patel, a front-end developer with a passion for building engaging, scalable, and unique web experiences. This portfolio showcases my skills and projects, built with the powerful React.js framework. Check out the live demo of this portfolio here ***[ronakjpatel.in](https://ronakjpatel.in/)***
 
 
-- Check out the live demo of this portfolio here ***[ronakjpatel.in](https://ronakjpatel.in/)***
+### 🌟 Key Features
+
+- **💻 Responsive Design:** Optimized for seamless viewing across desktops, tablets, and mobile devices.
+- **📧 Contact Form:** Visitors can easily reach out via email, integrated through EmailJS.
+- **🌗 Dark/Light Mode Toggle:** Users can switch between themes, providing a personalized viewing experience.
+- **🔍 SEO Optimization:** Proper meta tags and ensure higher visibility on search engines.
 
 
-## Features
+### 🌐 Technologies Used
 
-- Light/dark mode toggle
-- [Handling contact Form with EmailJS](https://www.emailjs.com/)
+- **Frontend:** React, JavaScript
+- **Styling:** CSS
+- **Animation:** [animation-on-scroll](https://github.com/michalsnik/aos)
+- **Email Integration:** [EmailJS](https://www.emailjs.com/).
+- **Hosting & Deployment:** Netlify & Hostinger
+- **npm Libraries**: Explored various npm packages to enhance portfolio for [Marquee](https://www.npmjs.com/package/react-fast-marquee), [loaders](https://www.npmjs.com/package/react-spinners) and [vertical-timeline](https://www.npmjs.com/package/react-vertical-timeline-component).
 
 
+### 🎨 Color Reference
 
-## Tech Stack
+<table>
+  <tr>
+    <td>
+      <h3>Light Mode</h3>
+      <table>
+        <tr><td><strong>--bg-color-1</strong></td><td><img src="https://placehold.co/15x15/FAFAFA/FAFAFA.png"> #FAFAFA</td></tr>
+        <tr><td><strong>--bg-color-2</strong></td><td><img src="https://placehold.co/15x15/42A5F5/42A5F5.png"> #42A5F5</td></tr>
+        <tr><td><strong>--accent-primary</strong></td><td><img src="https://placehold.co/15x15/42A5F5/42A5F5.png"> #42A5F5</td></tr>
+        <tr><td><strong>--accent-secondary</strong></td><td><img src="https://placehold.co/15x15/044389/044389.png"> #044389</td></tr>
+        <tr><td><strong>--accent-tertiary</strong></td><td><img src="https://placehold.co/15x15/6ABFF1/6ABFF1.png"> #6ABFF1</td></tr>
+        <tr><td><strong>--font-color-1</strong></td><td><img src="https://placehold.co/15x15/404040/404040.png"> #404040</td></tr>
+        <tr><td><strong>--font-color-2</strong></td><td><img src="https://placehold.co/15x15/657785/657785.png"> #657785</td></tr>
+      </table>
+    </td>
+    <td>
+      <h3>Dark Mode</h3>
+      <table>
+        <tr><td><strong>--bg-color-1</strong></td><td><img src="https://placehold.co/15x15/15202b/15202b.png"> #15202b</td></tr>
+        <tr><td><strong>--bg-color-2</strong></td><td><img src="https://placehold.co/15x15/1b2a3e/1b2a3e.png"> #1b2a3e</td></tr>
+        <tr><td><strong>--accent-primary</strong></td><td><img src="https://placehold.co/15x15/47B5FF/47B5FF.png"> #47B5FF</td></tr>
+        <tr><td><strong>--accent-secondary</strong></td><td><img src="https://placehold.co/15x15/044389/044389.png"> #044389</td></tr>
+        <tr><td><strong>--accent-tertiary</strong></td><td><img src="https://placehold.co/15x15/72D8FD/72D8FD.png"> #72D8FD</td></tr>
+        <tr><td><strong>--font-color-1</strong></td><td><img src="https://placehold.co/15x15/E2E8ED/E2E8ED.png"> #E2E8ED</td></tr>
+        <tr><td><strong>--font-color-2</strong></td><td><img src="https://placehold.co/15x15/AAB9C4/AAB9C4.png"> #AAB9C4</td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
 
-- **React-js**: The entire user interface is built using React components, allowing for reusability and easy extension.
 
-- **npm Libraries**: Explored various npm packages to enhance portfolio for [animation-on-scroll](https://github.com/michalsnik/aos), [Marquee](https://www.npmjs.com/package/react-fast-marquee), [loaders](https://www.npmjs.com/package/react-spinners) and [vertical-timeline](https://www.npmjs.com/package/react-vertical-timeline-component).
-## Color Reference
+## 🔧 Getting Started
 
-**Light Mode**
+> This repository serves as a template version of my portfolio. Feel free to fork, modify, or customize it to suit your needs.
 
-| Color             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| --bg-color-1 |![#FAFAFA](https://placehold.co/15x15/FAFAFA/FAFAFA.png) `#FAFAFA`|
-| --bg-color-2 |![#42A5F5](https://placehold.co/15x15/42A5F5/42A5F5.png) `#42A5F5`|
-| --accent-primary |![#42A5F5](https://placehold.co/15x15/42A5F5/42A5F5.png) `#42A5F5` |
-| --accent-secondary |![#044389](https://placehold.co/15x15/044389/044389.png) `#044389`|
-| --accent-tertiary |![#6ABFF1](https://placehold.co/15x15/6ABFF1/6ABFF1.png) `#6ABFF1`|
-| --font-color-1 |![#404040](https://placehold.co/15x15/404040/404040.png) `#404040`|
-| --font-color-2 |![#657785](https://placehold.co/15x15/657785/657785.png) `#657785`|
+To run this project locally:
 
-**Dark Mode**
-
-| Color             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| --bg-color-1 |![#15202b](https://placehold.co/15x15/15202b/15202b.png) `#15202b`|
-| --bg-color-2 |![#1b2a3e](https://placehold.co/15x15/1b2a3e/1b2a3e.png) `#1b2a3e`|
-| --accent-primary |![#47B5FF](https://placehold.co/15x15/47B5FF/47B5FF.png) `#47B5FF` |
-| --accent-secondary |![#044389](https://placehold.co/15x15/044389/044389.png) `#044389`|
-| --accent-tertiary |![#72D8FD](https://placehold.co/15x15/72D8FD/72D8FD.png) `#72D8FD`|
-| --font-color-1 |![#E2E8ED](https://placehold.co/15x15/E2E8ED/E2E8ED.png) `#E2E8ED`|
-| --font-color-2 |![#AAB9C4](https://placehold.co/15x15/AAB9C4/AAB9C4.png) `#AAB9C4`|
-## Installation
-
-### Fork and Clone the repo
-
-To Fork the repo click on the fork button at the top right of the page. Once the repo is forked open your terminal and perform the following commands
-
+1. **Clone the repository:**
 ```
 git clone https://github.com/R-o-n-a-k/React-Personal-Portfolio.git
 
 cd React-Personal-Portfolio
 ```
 
-### Install Dependencies
+2. **Install dependencies:**
 
 ```
 npm install
 ```
 
-### Run the development server:
+3. **Run the development server:**
 
 ```
 npm run dev
 ```
+
+4. Open localhost link to view it in the browser.
