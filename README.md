@@ -8,9 +8,10 @@
 
 ## Demo
 
-![](https://github.com/R-o-n-a-k/React-Personal-Portfolio/blob/main/src/assets/project-section/reactPortfolio.gif?raw=true)
+<img src="https://github.com/R-o-n-a-k/R-o-n-a-k/blob/1bdfb70bd1f8a97bb91f799ee1d0c09920c1dd7e/assets/ReactPersonalPortfolio.png?raw=true" width="100%" />
 
-- Check out the live demo of this portfolio here ***[ronakpatel.xyz](https://ronakpatel.xyz/)***
+
+- Check out the live demo of this portfolio here ***[ronakjpatel.in](https://ronakjpatel.in/)***
 
 
 ## Features
