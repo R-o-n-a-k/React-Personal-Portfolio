@@ -1,6 +1,6 @@
 
 # Ronak Patel | Front-End Developer Portfolio
-<img src="https://github.com/R-o-n-a-k/R-o-n-a-k/blob/f58016a29f39aff73e71a33c01ceff6de0a05a5a/assets/ReactPortfolio.png?raw=true" width="100%" />
+<img src="https://github.com/R-o-n-a-k/assets/blob/40b401458ae867b491ec9390bd8de3d8d5a42389/assets/ReactPortfolio.png?raw=true" width="100%" />
 
 ## 🚀 Project Overview
 
