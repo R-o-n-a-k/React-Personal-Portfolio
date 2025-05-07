@@ -1,18 +1,16 @@
-
 # Ronak Patel | Front-End Developer Portfolio
 <img src="https://github.com/R-o-n-a-k/assets/blob/40b401458ae867b491ec9390bd8de3d8d5a42389/assets/ReactPortfolio.png?raw=true" width="100%" />
 
 ## 🚀 Project Overview
 
-I'm Ronak Patel, a front-end developer with a passion for building engaging, scalable, and unique web experiences. This portfolio showcases my skills and projects, built with the powerful React.js framework. Check out the live demo of this portfolio here ***[ronakjpatel.in](https://ronakjpatel.in/)***
-
+I'm Ronak Patel, a front-end developer with a passion for building engaging, scalable, and unique web experiences. This portfolio showcases my skills and projects, built with the powerful React.js framework. 
 
 ### 🌟 Key Features
 
-- **💻 Responsive Design:** Optimized for seamless viewing across desktops, tablets, and mobile devices.
-- **📧 Contact Form:** Visitors can easily reach out via email, integrated through EmailJS.
-- **🌗 Dark/Light Mode Toggle:** Users can switch between themes, providing a personalized viewing experience.
-- **🔍 SEO Optimization:** Proper meta tags and ensure higher visibility on search engines.
+- **Responsive Design:** Optimized for seamless viewing across desktops, tablets, and mobile devices.
+- **Contact Form:** Visitors can easily reach out via email, integrated through EmailJS.
+- **Dark/Light Mode Toggle:** Users can switch between themes, providing a personalized viewing experience.
+- **SEO Optimization:** Proper meta tags and ensure higher visibility on search engines.
 
 
 ### 🌐 Technologies Used
@@ -83,3 +81,9 @@ npm run dev
 ```
 
 4. Open localhost link to view it in the browser.
+
+## 🌐 Live Website
+🔗 [ronakjpatel.in](https://ronakjpatel.in/)
+
+<hr> 
+<p align="center">Crafted with code, creativity, and a touch of personal flair 💻</p>
