@@ -1,15 +1,14 @@
-import Work1 from "../../assets/project-section/fnd.gif";
 import Work2 from "../../assets/project-section/reactPortfolio.gif";
 import Work3 from "../../assets/project-section/covid.gif";
 import Work4 from "../../assets/project-section/orion.gif";
 import Work5 from "../../assets/project-section/virtualAssistant.png";
 import Work6 from "../../assets/project-section/portfolioLatest.gif";
-import Work7 from "../../assets/project-section/somebodyfixit.gif";
 
 export const projectsData = [
   {
     id: 7,
-    image: Work7,
+    image:
+      "https://raw.githubusercontent.com/R-o-n-a-k/assets/0fa290e5006b25023e4c9429c1d7f5263820cdce/assets/SomebodyFixIt.gif",
     title: "SomebodyFixit",
     category: "web",
     ref: "https://somebodyfixit.netlify.app/",
@@ -31,8 +30,33 @@ export const projectsData = [
     ],
   },
   {
+    id: 8,
+    image:
+      "https://raw.githubusercontent.com/R-o-n-a-k/assets/0fa290e5006b25023e4c9429c1d7f5263820cdce/assets/ReactProjectCanvas.gif",
+    title: "React Projects Gallery",
+    category: "web",
+    ref: "https://react-projects-ronak.netlify.app/",
+    desc: [
+      "A responsive, canvas-style gallery of my ",
+      <span className="highlight">React</span>,
+      " projects from beginner to advanced.",
+      <br />,
+      <br />,
+      " Features tab-based ",
+      <span className="highlight">filtering</span>,
+      " and a plug & play setup for easy ",
+      <span className="highlight">learning</span>,
+      ", ",
+      <span className="highlight">adding</span>,
+      ", and ",
+      <span className="highlight">scaling</span>,
+      " your own projects too.",
+    ],
+  },
+  {
     id: 1,
-    image: Work1,
+    image:
+      "https://raw.githubusercontent.com/R-o-n-a-k/assets/0fa290e5006b25023e4c9429c1d7f5263820cdce/assets/FND.gif",
     title: "Fake News Detection",
     category: "ml",
     ref: "https://fakenewsdetection-t083.onrender.com/",
