@@ -92,6 +92,8 @@
 
 
 .show__button {
+    display: block;
+    /* text-align: center; */
     margin-top: 1rem;
     font-size: var(--smaller-font-size);
 }
