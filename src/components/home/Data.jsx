@@ -1,5 +1,5 @@
 import React from "react";
-import MyResume from "../../assets/Ronak_Patel_SeniorSoftwareEngineer_Resume.pdf";
+import MyResume from "../../assets/RonakPatel_FrontendDeveloper.pdf";
 import TextTransitionLoop from "./TextTransitionLoop";
 
 function Data() {
@@ -11,7 +11,7 @@ function Data() {
       <TextTransitionLoop />
 
       <a
-        download="Ronak_Patel_SeniorSoftwareEngineer_Resume"
+        download="RonakPatel_FrontendDeveloper_Resume"
         target="_blank"
         href={MyResume}
         className="button button--flex"

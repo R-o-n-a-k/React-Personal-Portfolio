@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import TextTransition, { presets } from "react-text-transition";
 
 const Roles = [
+  "Full-Stack Developer",
   "Front-End Developer",
-  "Automation Tester",
   "Senior Software Engineer",
 ];
 
