@@ -69,7 +69,7 @@ function Contact() {
                 type="text"
                 name="name"
                 className="contact__form-input"
-                placeholder="FirstName LastName"
+                placeholder="Enter your full name"
                 required
               />
             </div>
