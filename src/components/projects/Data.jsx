@@ -33,9 +33,9 @@ export const projectsData = [
     id: 8,
     image:
       "https://raw.githubusercontent.com/R-o-n-a-k/assets/0fa290e5006b25023e4c9429c1d7f5263820cdce/assets/ReactProjectCanvas.gif",
-    title: "React Projects Gallery",
+    title: "Reactique",
     category: "web",
-    ref: "https://react-projects-ronak.netlify.app/",
+    ref: "https://reactique.netlify.app/",
     desc: [
       "A responsive, canvas-style gallery of my ",
       <span className="highlight">React</span>,
