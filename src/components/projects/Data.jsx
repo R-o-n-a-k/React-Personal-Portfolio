@@ -3,6 +3,7 @@ import Work3 from "../../assets/project-section/covid.gif";
 import Work4 from "../../assets/project-section/orion.gif";
 import Work5 from "../../assets/project-section/virtualAssistant.png";
 import Work6 from "../../assets/project-section/portfolioLatest.gif";
+import Work9 from "../../assets/project-section/nidhiProject.jpg";
 
 export const projectsData = [
   {
@@ -51,6 +52,46 @@ export const projectsData = [
       ", and ",
       <span className="highlight">scaling</span>,
       " your own projects too.",
+    ],
+  },
+  {
+    id: 9,
+    image: Work9,
+    title: "Nidhi's Portfolio",
+    category: "web",
+    ref: "https://patelnidhi.vercel.app/",
+    desc: [
+      "A modern, fully ",
+      <span className="highlight">responsive portfolio</span>,
+      " built with ",
+      <span className="highlight">Next.js</span>,
+      " and ",
+      <span className="highlight">Tailwind CSS</span>,
+      ", featuring page-wise ",
+      <span className="highlight">SEO</span>,
+      ", dark/light mode toggle, and smooth animations using ",
+      <span className="highlight">Framer Motion</span>,
+      ".",
+    ],
+  },
+  {
+    id: 10,
+    image: "https://parthpala.vercel.app/ParthPalaOG.webp",
+    title: "Parth's Portfolio",
+    category: "web",
+    ref: "https://parthpala.vercel.app/",
+    desc: [
+      "A clean and minimal ",
+      <span className="highlight">personal portfolio</span>,
+      " built with ",
+      <span className="highlight">Next.js</span>,
+      " and ",
+      <span className="highlight">Tailwind CSS</span>,
+      ", featuring a responsive layout, ",
+      <span className="highlight">light/dark mode</span>,
+      ", and smooth ",
+      <span className="highlight">Framer Motion</span>,
+      " animations for enhanced user experience.",
     ],
   },
   {
